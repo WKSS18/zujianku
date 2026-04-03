@@ -9,6 +9,7 @@ export default defineConfig({
       { title: '组件', link: '/components/pro-table' },
       { title: 'Hooks', link: '/hooks/use-mount' },
       { title: '工具', link: '/utils/format-date' },
+      { title: '主题', link: '/theme' },
     ],
   },
   resolve: {
@@ -16,7 +17,6 @@ export default defineConfig({
     atomDirs: [
       { type: 'component', dir: 'packages/components/src' },
       { type: 'hook', dir: 'packages/hooks/src' },
-      { type: 'util', dir: 'packages/utils/src' },
     ],
   },
   alias: {
