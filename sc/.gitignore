@@ -2,7 +2,8 @@ node_modules/
 dist/
 *.tsbuildinfo
 .turbo/
-storybook-static/
+.dumi/
+docs-dist/
 coverage/
 *.local
 .DS_Store
