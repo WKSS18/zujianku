@@ -7,7 +7,9 @@
       "Bash(ls node_modules/.pnpm/esbuild*/node_modules/esbuild/)",
       "Bash(pnpm install:*)",
       "Bash(pnpm test:*)",
-      "Bash(pnpm lint:*)"
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm build:*)"
     ]
   }
 }
