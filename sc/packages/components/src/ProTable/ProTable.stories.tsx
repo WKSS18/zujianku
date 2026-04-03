@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { ProTable } from './ProTable';
 
 const meta: Meta<typeof ProTable> = {
-  title: 'Components/ProTable',
+  title: '组件/高级表格 ProTable',
   component: ProTable,
   parameters: {
     layout: 'padded',
@@ -31,6 +31,7 @@ const mockRequest = async (params: { current: number; pageSize: number }) => {
 };
 
 export const Basic: Story = {
+  name: '基础用法',
   args: {
     columns: mockColumns,
     request: mockRequest,
@@ -38,6 +39,7 @@ export const Basic: Story = {
 };
 
 export const NoAutoRequest: Story = {
+  name: '关闭自动请求',
   args: {
     columns: mockColumns,
     request: mockRequest,

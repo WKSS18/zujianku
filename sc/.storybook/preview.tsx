@@ -11,6 +11,11 @@ const preview: Preview = {
     ),
   ],
   parameters: {
+    options: {
+      storySort: {
+        order: ['组件'],
+      },
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { SearchForm } from './SearchForm';
 
 const meta: Meta<typeof SearchForm> = {
-  title: 'Components/SearchForm',
+  title: '组件/搜索表单 SearchForm',
   component: SearchForm,
   parameters: {
     layout: 'padded',
@@ -13,6 +13,7 @@ export default meta;
 type Story = StoryObj<typeof SearchForm>;
 
 export const Basic: Story = {
+  name: '基础用法',
   args: {
     fields: [
       { name: 'name', label: '姓名', type: 'input', placeholder: '请输入姓名' },
