@@ -1,0 +1,61 @@
+{
+  "name": "sc111113333",
+  "version": "1.0.7",
+  "packageManager": "pnpm@10.8.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "storybook dev -p 6006",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint packages/*/src/**/*.ts packages/*/src/**/*.tsx",
+    "lint:fix": "eslint packages/*/src/**/*.ts packages/*/src/**/*.tsx --fix",
+    "format": "prettier --write packages/*/src/**/*.ts packages/*/src/**/*.tsx",
+    "typecheck": "tsc -b packages/utils/tsconfig.json packages/hooks/tsconfig.json packages/theme/tsconfig.json packages/components/tsconfig.json",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "publish-packages": "pnpm build && changeset publish",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.30.0",
+    "@storybook/addon-essentials": "^8.6.0",
+    "@storybook/react": "^8.6.0",
+    "@storybook/react-vite": "^8.6.0",
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "husky": "^9.1.0",
+    "jsdom": "^26.0.0",
+    "lint-staged": "^15.4.0",
+    "prettier": "^3.5.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "storybook": "^8.6.0",
+    "tsdown": "^0.20.0",
+    "typescript": "^5.8.0",
+    "vitest": "^4.1.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}

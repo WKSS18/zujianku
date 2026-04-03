@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@latest . --template react-ts)",
+      "Read(//d/project/**)",
+      "Bash(npx --yes create-vite@latest demo-app --template react-ts)",
+      "Bash(cp -r D:/project/demo-app/* D:/project/demo/)",
+      "Bash(cp D:/project/demo-app/.gitignore D:/project/demo/)",
+      "Bash(cp D:/project/demo-app/.eslintrc.cjs D:/project/demo/)",
+      "Bash(rm -rf D:/project/demo-app)",
+      "Bash(npm install:*)",
+      "Bash(npm i:*)"
+    ]
+  }
+}
