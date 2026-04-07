@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls node_modules/.pnpm/vite@*/node_modules/vite/package.json)",
+      "Bash(cat node_modules/.pnpm/vitest@4.1.2*/node_modules/vitest/package.json)",
+      "Bash(pnpm install:*)"
+    ]
+  }
+}

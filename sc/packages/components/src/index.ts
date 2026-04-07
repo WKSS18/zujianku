@@ -1,3 +1,6 @@
+export { Button } from './Button';
+export type { ButtonProps, ConfirmConfig } from './Button';
+
 export { ProTable } from './ProTable';
 export type { ProTableProps, ProTableRequest, ProTableResponse } from './ProTable';
 

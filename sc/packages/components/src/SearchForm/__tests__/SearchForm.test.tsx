@@ -81,7 +81,7 @@ describe('SearchForm', () => {
     const onSearch = vi.fn();
     render(<SearchForm fields={mockFields} onSearch={onSearch} />);
     expect(screen.getByText('搜索')).toBeInTheDocument();
-    expect(screen.getByText('重置')).toBeInTheDocument();
+    expect(screen.getByText('重置filter')).toBeInTheDocument();
   });
 
   it('calls onSearch on form submit', () => {
