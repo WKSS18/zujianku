@@ -54,7 +54,7 @@ export function Button({
   }
 
   const isDisabled =
-    disabled || (authCode && !hasAuth && authFailMode === 'disabled');
+    disabled || !!(authCode && !hasAuth && authFailMode === 'disabled');
   const isLoading = loading || innerLoading;
 
   return (

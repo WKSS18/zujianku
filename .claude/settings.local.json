@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Bash(pnpm --filter @test111190909222/hooks build)"
+    ]
+  }
+}
