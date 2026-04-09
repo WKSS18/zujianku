@@ -26,9 +26,9 @@
     "dev": "tsdown --watch"
   },
   "peerDependencies": {
-    "react": ">=19",
-    "react-dom": ">=19",
-    "antd": ">=6",
+    "react": ">=17",
+    "react-dom": ">=17",
+    "antd": ">=5",
     "@ant-design/x": ">=2"
   },
   "dependencies": {

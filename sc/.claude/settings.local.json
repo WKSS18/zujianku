@@ -10,7 +10,9 @@
       "Bash(pnpm lint:*)",
       "Bash(pnpm add:*)",
       "Bash(pnpm build:*)",
-      "Bash(npx vitest:*)"
+      "Bash(npx vitest:*)",
+      "Bash(xargs cat:*)",
+      "Bash(grep -r use_ /d/project/zujianku/sc/packages/*/src --include=*.ts --include=*.tsx)"
     ]
   }
 }
