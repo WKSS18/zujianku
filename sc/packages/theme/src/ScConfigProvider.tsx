@@ -19,8 +19,16 @@ export function ScConfigProvider({ children, theme, scToken }: ScConfigProviderP
     [scToken],
   );
 
+  const mergedTheme = useMemo<ThemeConfig>(
+    () => ({
+      cssVar: true,
+      ...theme,
+    }),
+    [theme],
+  );
+
   return (
-    <ConfigProvider theme={theme}>
+    <ConfigProvider theme={mergedTheme}>
       <ScTokenContext.Provider value={mergedScToken}>
         {children}
       </ScTokenContext.Provider>

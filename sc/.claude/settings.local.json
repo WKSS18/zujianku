@@ -12,7 +12,22 @@
       "Bash(pnpm build:*)",
       "Bash(npx vitest:*)",
       "Bash(xargs cat:*)",
-      "Bash(grep -r use_ /d/project/zujianku/sc/packages/*/src --include=*.ts --include=*.tsx)"
+      "Bash(grep -r use_ /d/project/zujianku/sc/packages/*/src --include=*.ts --include=*.tsx)",
+      "Bash(xargs grep:*)",
+      "Bash(ls:*)",
+      "Bash(npm install:*)",
+      "Bash(node test.mjs)",
+      "Bash(node:*)",
+      "Bash(npm ls:*)",
+      "Bash(cp:*)",
+      "Bash(find /c/Users/issuser/AppData/Local/Temp/compat-test -type f -name *.json -o -name *.yml -o -name *.yaml -o -name Jenkinsfile)",
+      "Bash(grep -r \"colorPrimary\\\\|ThemeConfig\\\\|algorithm\" /d/project/zujianku/sc --include=*.ts --include=*.tsx --include=*.json)",
+      "Bash(grep -r \"useToken\\\\|theme\\\\.token\\\\|Token\\\\|design\" /d/project/zujianku/sc/packages --include=*.ts --include=*.tsx)",
+      "Bash(grep -r \"color\\\\|Color\\\\|COLOR\" /d/project/zujianku/sc/packages --include=*.tsx --include=*.ts --include=*.jsx --include=*.js)",
+      "Bash(grep -r \"styled\\\\|css\\\\|CSS\" /d/project/zujianku/sc/packages/components --include=*.tsx --include=*.ts)",
+      "Bash(grep -r \"antd\\\\|@ant-design\" /d/project/zujianku/sc/packages --include=*.json --include=*.ts --include=*.tsx)",
+      "Bash(tree -L 3 /d/project/zujianku/sc/packages --ignore node_modules)",
+      "Bash(wc -l /d/project/zujianku/sc/packages/*/src/**/*.tsx /d/project/zujianku/sc/packages/*/src/**/*.ts)"
     ]
   }
 }
