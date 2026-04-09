@@ -1,6 +1,6 @@
 {
   "name": "@test111190909222/utils",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Shared utility functions for SC component library",
   "type": "module",
   "main": "./dist/index.cjs",

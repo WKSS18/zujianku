@@ -1,5 +1,18 @@
 # @sc/components
 
+## 8.0.0
+
+### Major Changes
+
+- cs
+
+### Patch Changes
+
+- Updated dependencies
+  - @test111190909222/hooks@4.0.0
+  - @test111190909222/theme@4.0.0
+  - @test111190909222/utils@4.0.0
+
 ## 7.0.0
 
 ### Major Changes

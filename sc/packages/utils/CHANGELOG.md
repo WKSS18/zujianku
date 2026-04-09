@@ -1,5 +1,11 @@
 # @sc/utils
 
+## 4.0.0
+
+### Major Changes
+
+- cs
+
 ## 3.0.0
 
 ### Major Changes
