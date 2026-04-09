@@ -1,6 +1,6 @@
 {
   "name": "@test111190909222/theme",
-  "version": "1.0.1",
+  "version": "3.0.0",
   "description": "Theme customization and ConfigProvider for SC component library",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -32,7 +32,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://localhost:8080/"
   },
   "sideEffects": false
 }

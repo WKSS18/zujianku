@@ -1,5 +1,29 @@
 # @sc/hooks
 
+## 3.0.0
+
+### Major Changes
+
+- d
+
+### Patch Changes
+
+- Updated dependencies
+  - @test111190909222/utils@3.0.0
+
+## 2.0.0
+
+### Major Changes
+
+- d
+- ces
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @test111190909222/utils@2.0.0
+
 ## 1.0.0
 
 ### Major Changes

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@test111190909222/components':
-        specifier: ^1.0.1
-        version: 1.0.1(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: ^7.0.0
+        version: 7.0.0(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -684,28 +684,28 @@ packages:
   '@rolldown/pluginutils@1.0.0-rc.7':
     resolution: {integrity: sha512-qujRfC8sFVInYSPPMLQByRh7zhwkGFS4+tyMQ83srV1qrxL4g8E2tyxVVyxd0+8QeBM1mIk9KbWxkegRr76XzA==}
 
-  '@test111190909222/components@1.0.1':
-    resolution: {integrity: sha512-2J0yqHF9Bmx8/QhhtxQe8nFyDPDiR0C9mBgKHTQ4MIPzvPdpYKK9WsyyVrYeX8qKr69vbQvQyw0ssaYViJSiew==}
+  '@test111190909222/components@7.0.0':
+    resolution: {integrity: sha512-3AtrTBiMLIWK9+gtKN9+iGXZJsfqwmWmTgyIhf/9cug/ijv3j3Zu1CwPRlOBt2DY0p0hE9wOEym8BlgzuvwL+g==}
     peerDependencies:
       '@ant-design/x': '>=2'
-      antd: '>=6'
-      react: '>=19'
-      react-dom: '>=19'
+      antd: '>=5'
+      react: '>=17'
+      react-dom: '>=17'
 
-  '@test111190909222/hooks@1.0.0':
-    resolution: {integrity: sha512-XSt0A/cdetwsfmi3MrUc10XVSzBAD0mTSjBCRubRKsvFBsyXY7ZAUH0tJV1mFfxRjJ9PMo36X57e6Lu1XVYZ6g==}
+  '@test111190909222/hooks@3.0.0':
+    resolution: {integrity: sha512-REC4pDBzVbEitJ1auHxFdlLR/RffjM/I4xVNf310TP2rWR5kLsIrVyPLmzm9Bypyeq9cwvJ1khVA+1i8h9LJHA==}
     peerDependencies:
-      react: '>=19'
+      react: '>=17'
 
-  '@test111190909222/theme@1.0.0':
-    resolution: {integrity: sha512-qfihyTpB5JgNIV3hs+dNXzz7US1xNlrrILKEa7RCMR8vRG54xY3FSw49UcZigkHpOz94FzGonAqIM9BzWJyIUg==}
+  '@test111190909222/theme@3.0.0':
+    resolution: {integrity: sha512-ECaFaiy+hzg172A/Tv1zvIPD/48F2zK18+u7S3FmcrAmGV4XeaSU3HJbjpQRHvUU2fQPYa1+QhY8efBiuoohzA==}
     peerDependencies:
-      antd: '>=6'
-      react: '>=19'
-      react-dom: '>=19'
+      antd: '>=5'
+      react: '>=17'
+      react-dom: '>=17'
 
-  '@test111190909222/utils@1.0.0':
-    resolution: {integrity: sha512-KX/0clQHrwWsNOmmUTlO/35AJXx6TbYACumMmXjr+YVwMUwIeTD6XEMQ3yl954QCZn5V1qRJ9yJS54Z4P8MeTg==}
+  '@test111190909222/utils@3.0.0':
+    resolution: {integrity: sha512-rFiukka6WoBdyMqqY8U8Rhvf9hw3ZCToU6sHjPApGNbK8EFpQOJTxYwKNLzcup7Et5XskIjURjL84iVdkNvjjQ==}
 
   '@tybys/wasm-util@0.10.1':
     resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
@@ -2632,28 +2632,28 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-rc.7': {}
 
-  '@test111190909222/components@1.0.1(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@test111190909222/components@7.0.0(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@ant-design/x': 2.5.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@test111190909222/hooks': 1.0.0(react@19.2.4)
-      '@test111190909222/theme': 1.0.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@test111190909222/utils': 1.0.0
+      '@test111190909222/hooks': 3.0.0(react@19.2.4)
+      '@test111190909222/theme': 3.0.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@test111190909222/utils': 3.0.0
       antd: 6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@test111190909222/hooks@1.0.0(react@19.2.4)':
+  '@test111190909222/hooks@3.0.0(react@19.2.4)':
     dependencies:
-      '@test111190909222/utils': 1.0.0
+      '@test111190909222/utils': 3.0.0
       react: 19.2.4
 
-  '@test111190909222/theme@1.0.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@test111190909222/theme@3.0.0(antd@6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       antd: 6.3.5(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@test111190909222/utils@1.0.0': {}
+  '@test111190909222/utils@3.0.0': {}
 
   '@tybys/wasm-util@0.10.1':
     dependencies:

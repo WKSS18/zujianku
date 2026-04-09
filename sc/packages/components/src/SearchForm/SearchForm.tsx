@@ -48,7 +48,7 @@ export function SearchForm({
               <Button type="primary" htmlType="submit" loading={loading}>
                 搜索
               </Button>
-              <Button onClick={handleReset}>重置filter</Button>
+              <Button onClick={handleReset}>重置私仓搜索</Button>
             </Space>
           </Form.Item>
         </Col>
