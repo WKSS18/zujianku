@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@sh-ai/work-ui':
+        specifier: ^2.0.0
+        version: 2.0.0(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@test111190909222/components':
         specifier: ^7.0.0
         version: 7.0.0(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -683,6 +686,14 @@ packages:
 
   '@rolldown/pluginutils@1.0.0-rc.7':
     resolution: {integrity: sha512-qujRfC8sFVInYSPPMLQByRh7zhwkGFS4+tyMQ83srV1qrxL4g8E2tyxVVyxd0+8QeBM1mIk9KbWxkegRr76XzA==}
+
+  '@sh-ai/work-ui@2.0.0':
+    resolution: {integrity: sha512-NWqV3O9kP4CBKtR4TyH0nYk1NN+mDkJsiXeId2gztyJE9CbxhMXHHBDHcXTiAbzxDYEOlZ1v4PME/Lq1kWUhPg==}
+    peerDependencies:
+      '@ant-design/x': '>=2'
+      antd: '>=5'
+      react: '>=17'
+      react-dom: '>=17'
 
   '@test111190909222/components@7.0.0':
     resolution: {integrity: sha512-3AtrTBiMLIWK9+gtKN9+iGXZJsfqwmWmTgyIhf/9cug/ijv3j3Zu1CwPRlOBt2DY0p0hE9wOEym8BlgzuvwL+g==}
@@ -2626,6 +2637,13 @@ snapshots:
   '@rolldown/pluginutils@1.0.0-rc.13': {}
 
   '@rolldown/pluginutils@1.0.0-rc.7': {}
+
+  '@sh-ai/work-ui@2.0.0(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+    dependencies:
+      '@ant-design/x': 2.5.0(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+      antd: 6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+      react: 19.2.5
+      react-dom: 19.2.5(react@19.2.5)
 
   '@test111190909222/components@7.0.0(@ant-design/x@2.5.0(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(antd@6.3.5(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
