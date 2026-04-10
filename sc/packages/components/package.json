@@ -1,6 +1,6 @@
 {
-  "name": "@test111190909222/components",
-  "version": "8.0.0",
+  "name": "@test111190909222/components1",
+  "version": "9.0.0",
   "description": "Business components for SC component library",
   "type": "module",
   "main": "./dist/index.cjs",

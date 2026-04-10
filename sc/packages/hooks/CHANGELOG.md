@@ -1,5 +1,16 @@
 # @sc/hooks
 
+## 5.0.0
+
+### Major Changes
+
+- cs
+
+### Patch Changes
+
+- Updated dependencies
+  - @test111190909222/utils@5.0.0
+
 ## 4.0.0
 
 ### Major Changes
